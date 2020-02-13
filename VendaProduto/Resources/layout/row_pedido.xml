@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="99"
+    android:padding="10dp">
+
+        <TextView
+        android:text="NumPedido"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="37"
+        android:id="@+id/txtRowNumPedido"/>
+        <TextView
+        android:text="Data"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="31"
+        android:id="@+id/txtRowDataPedido"/>
+        <TextView
+        android:text="Valor"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="31"
+        android:id="@+id/txtRowValorPedido"/>
+
+</LinearLayout>

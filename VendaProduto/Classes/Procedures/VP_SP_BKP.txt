@@ -1,0 +1,23 @@
+DELIMITER $$
+CREATE DEFINER=`root`@`localhost` PROCEDURE `VP_SP_BuscarProdutosPedido`(IN `idPedido` INT UNSIGNED ZEROFILL)
+    NO SQL
+BEGIN
+	SELECT pr.* FROM produto pr inner join item_pedido ip on pr.Id = ip.IdProduto inner join pedido pe on ip.IdPedido = pe.Id WHERE ip.IdPedido = idPedido;
+END$$
+DELIMITER ;
+
+DELIMITER $$
+CREATE DEFINER=`root`@`localhost` PROCEDURE `VP_SP_BuscarTodosPedidos`()
+    NO SQL
+BEGIN
+	Select * From pedido;
+END$$
+DELIMITER ;
+
+DELIMITER $$
+CREATE DEFINER=`root`@`localhost` PROCEDURE `VP_SP_BuscarTodosProdutos`()
+    NO SQL
+BEGIN
+	SELECT * FROM Produto;
+END$$
+DELIMITER ;
