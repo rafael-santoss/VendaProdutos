@@ -1603,11 +1603,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rafael.dias\\source\\repos\\VendaProduto\\VendaProduto\\VendaProduto.csproj",
+      "projectUniqueName": "C:\\Git\\VendaProduto\\VendaProduto\\VendaProduto.csproj",
       "projectName": "VendaProduto",
-      "projectPath": "C:\\Users\\rafael.dias\\source\\repos\\VendaProduto\\VendaProduto\\VendaProduto.csproj",
+      "projectPath": "C:\\Git\\VendaProduto\\VendaProduto\\VendaProduto.csproj",
       "packagesPath": "C:\\Users\\rafael.dias\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rafael.dias\\source\\repos\\VendaProduto\\VendaProduto\\obj\\",
+      "outputPath": "C:\\Git\\VendaProduto\\VendaProduto\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

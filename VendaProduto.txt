@@ -1,0 +1,28 @@
+Criar um novo projeto chamado: VendaProduto
+
+- Esse projeto terá uma conexão com o banco de dados MySQL.
+- Importar a classe "AcessoDados" ao projeto.
+- Adicionar as referências:
+	- Json;
+	- Xamarin.MySql.Data;
+- Criar uma classe de nome Produto.
+- Essa classe deverá ter as seguintes propriedades:
+	- Id int
+	- NomeProduto string
+	- PrecoUnit decimal
+	- QtdEstocada int
+	- Ativo	int
+
+- Criar um CRUD para Produto.
+(OK)
+-------------------------------------
+- Criar uma classe de nome Pedido.
+- Essa classe deverá ter as seguintes propriedades:
+	- Id int
+	- Data	datetime
+	- Produtos List<Produto>
+	- ValorTotal decimal
+
+- Para cada produto adicionado no pedido
+o valor total deverá ser atualizado.
+--------------------------------------
