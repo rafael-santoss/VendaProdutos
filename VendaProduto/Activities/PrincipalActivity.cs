@@ -27,7 +27,7 @@ namespace VendaProduto.Activities
         {
             base.OnCreate(savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
-            
+
             SetContentView(Resource.Layout.activity_principal);
 
             tlbPrincipal = FindViewById<ToolbarV7>(Resource.Id.tlbPrincipal);
